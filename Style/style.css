@@ -1,0 +1,52 @@
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+   
+}
+/* header style */
+.header{
+    margin: 60px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+.logo-heading h3{
+    color: #131318;
+
+font-size: 36px;
+
+}
+.travel_span{
+    color: #FF5400;
+
+font-size: 36px;
+
+}
+/* nav bar style */
+nav li{
+    list-style: none;
+    
+}
+nav >ul{
+    display: flex;
+    gap:44px;
+    position: relative;
+    top: 35px;
+}
+
+ nav li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+font-size: 18px;
+
+    
+}
+
+ #toggler,label{
+    display: none;
+ }
