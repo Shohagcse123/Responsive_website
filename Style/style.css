@@ -126,7 +126,8 @@ font-size: 16px;
     text-align: center;
 }
 .first-banner{
-    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: linear-gradient(rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%), url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+   
     background-repeat: no-repeat;
     margin-left: 200px;
     height: 500px;
@@ -136,3 +137,55 @@ font-size: 16px;
 
 
 }
+/* Popular tours style */
+.popular-tours{
+    margin-top: 100px;
+    display: flex;
+    margin: 50px;
+    gap:50px;
+    margin-left: 100px;
+    text-align: left;
+}
+.popular-tours ul>li{
+    text-align: left;
+    margin-left: 80px;
+}
+.tour-image{
+    width: 400px;
+height: 500px;
+
+border-radius: 16px;
+}
+.tour-description{
+    width: 577px;
+    margin-left: 100px;
+    color: rgba(19, 19, 24, 0.70);
+
+font-size: 16px;
+
+}
+.tour-description span{
+    color: #131318;
+
+font-size: 40px;
+}
+#list-type{
+    color: rgba(19, 19, 24, 0.70);
+
+    font-size: 16px;
+}
+.readbtn{
+    width: 174px;
+    height: 52px;
+    background-color: #FF5400;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    left: 100px;
+    top:10px;
+
+}
+  
+
