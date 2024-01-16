@@ -89,3 +89,25 @@ font-size: 14px;
     padding: 10px;
   }
 }
+/* offer part  */
+@media screen and (max-width:600px) {
+   .newspart{
+    flex-direction: column;
+    margin:5px;
+   }
+   .offer{
+    position: relative;
+left: 35%;
+bottom:200px;
+transform: rotate(-19.628deg);
+   }
+   .newsletter{
+    width: 380px;
+    padding: 5px;
+    width: 100%;
+   }
+   .newsletter input,button{
+    width: 330px;
+   }
+   
+}
