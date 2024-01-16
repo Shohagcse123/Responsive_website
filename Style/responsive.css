@@ -69,3 +69,23 @@ font-size: 14px;
   }
   
 }
+/* Choose part reponsive */
+@media screen and (max-width:600px) {
+  .choose{
+    margin-left: 10px;
+  }
+  .choose-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .item-1,.item-2{
+ margin-left: -60px;
+ padding:10px;
+
+    
+  }
+  .best-price{
+    margin-left: -115px ;
+    padding: 10px;
+  }
+}
