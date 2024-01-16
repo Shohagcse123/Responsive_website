@@ -47,6 +47,88 @@ font-size: 18px;
     
 }
 
- #toggler,label{
-    display: none;
- }
+ 
+/* banner style */
+.input-box{
+  
+    
+  margin-top: 10px;
+  margin-left: 400px;
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+border: 2px solid rgba(255, 255, 255, 0.30);
+background-color: #ffffff85;
+position: relative;
+right: 20%;
+}
+.banner{
+    position: relative;
+    left: 37%;
+    padding:30px;
+   position: relative;
+   left: 20%;
+}
+.banner h3{
+    color:white;
+  
+font-family: Mulish;
+    font-weight: 800;
+
+font-size: 64px;
+
+}
+.banner p{
+    
+text-align: center;
+color: #FFF;
+margin-top: 10px;
+position: relative;
+left: -480px;
+top: 20%;
+line-height: 26px;
+font-size: 16px;
+
+}
+.banner span{
+    position: relative;
+    left: 20%;
+   
+}
+.input1,.input2,.input3{
+
+
+border-radius: 8px;
+width: 170px;
+height: 55px;
+
+border: 2px solid lightgray;
+
+background-color: white;
+color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+
+}
+.input4{
+    background-color: #FF5400;
+    border: 2px solid gray;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+   font-size: 16px;
+    width:170px;
+   height: 55px;
+    color: white;
+    text-align: center;
+}
+.first-banner{
+    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    height: 500px;
+    width: 1170px;
+    border-radius: 16px;
+
+}
