@@ -5,6 +5,7 @@
        gap:8px;
        white-space: nowrap;
        align-items: center;
+       text-align: justify;
        font-size: 20px;
        
      
@@ -12,6 +13,10 @@
     .logo{
         margin-left: -35px;
         font-size: 15px;
+    }
+    .logo-heading{
+      font-size: 30px;
+      text-align: justify;
     }
     .first-banner{
         margin:-5px;
