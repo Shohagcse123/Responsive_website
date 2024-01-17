@@ -358,18 +358,19 @@ font-size: 40px;
     
     
 }
-.latest-blog{
+.latest-blog {
     display: flex;
     gap:24px;
     margin-left: 200px;
+    border-radius: 16px;
   
 }
-.latest-blog-1{
+/* .latest-blog-1{
     display:flex;
     gap:20px;
     font-size: 16px;
     margin-left: 340px;
-}
+} */
 .latest-blog-2{
     display: flex;
     justify-content: space-evenly;
@@ -381,6 +382,7 @@ font-size: 40px;
     width: 510px;
     height: 380px;
     border:  30px solid lightblue;
+    
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -392,7 +394,7 @@ font-size: 40px;
 .newspart{
     display: flex;
     margin: 100px;
-  gap: 25PX;
+  gap: 25px;
     
 
 

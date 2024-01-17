@@ -213,3 +213,13 @@ width: 100%;
    }
    
 }
+/* extra part added */
+@media screen and (max-width:600px) {
+  .latest-blog,.latest-blog-1,.latest-blog-2{
+    flex-direction: column;
+  }
+  .latest-blog{
+    margin-left: -40px;
+  }
+  
+}
