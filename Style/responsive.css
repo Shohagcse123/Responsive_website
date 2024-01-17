@@ -11,7 +11,8 @@
      
     }
     .logo{
-        margin-left: -35px;
+        margin-left: 30px;
+        margin-top: 10px;
         font-size: 15px;
     }
     .logo-heading{
@@ -69,52 +70,68 @@ font-size: 14px;
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-    left: -200px;
+    right:100px;
+    text-align: justify;
    
+  }
+  .tour-image{
+    margin-left:20px;
+  }
+  .tour-description{
+    position: relative;
+    right: 97px;
+  }
+  #list-type{
+    position: relative;
+    right: 70px;
   }
   
 }
 /* Choose part reponsive */
 @media screen and (max-width:600px) {
   .choose{
-    margin-left: 10px;
+    margin-left:5px;
+    text-align: center;
   }
   .choose-container{
     flex-direction: column;
-    flex-wrap: wrap;
+    margin-left: -15px;
+  padding: 10px;
+  width:fit-content;
   }
-  .item-1,.item-2{
- margin-left: -60px;
- padding:10px;
-
-    
-  }
+ 
   .best-price{
-    margin-left: -115px ;
-    padding: 10px;
+    margin-left: -150px ;
+    padding: 20px;
   }
 }
 /* offer part  */
 @media screen and (max-width:600px) {
    .newspart{
     flex-direction: column;
-    margin:5px;
+    margin:10px;
    }
+   
    .offer{
     position: relative;
-left: 35%;
-bottom:200px;
+left: 40%;
+bottom:60px;
 transform: rotate(-19.628deg);
    }
    .newsletter{
     width: 380px;
-    padding: 5px;
+    padding:20px;
+    
     width: 100%;
    }
    .newsletter input,button{
     width: 330px;
    }
-
+ .newsletter-img{
+  width: 230px;
+height: 300px;
+width: 100%;
+ }
    /* footer part */
    .footer{
     height: 50px;
@@ -122,19 +139,23 @@ transform: rotate(-19.628deg);
    }
    .footer-logo{
     white-space: nowrap;
+    padding-top: -120px;
    }
    .footer-desc{
     flex-wrap: nowrap;
     width: 100%;
+    margin-top: -150px;
     margin-left: -380px;
    }
    .social-icon{
-    margin-top: 50px;
+    margin-top: 10px;
    }
    .horizontal{
-    margin: 20px;
+    margin: 10px;
+    margin:0 50px;
    }
    .reserved{
+    margin-top: 5px;
     white-space: nowrap;
    }
    
