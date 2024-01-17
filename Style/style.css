@@ -351,6 +351,42 @@ font-size: 40px;
     width: 64px;
     
 }
+/* latest blog */
+.extra-section{
+    text-align: center;
+    font-size: 32px;
+    
+    
+}
+.latest-blog{
+    display: flex;
+    gap:24px;
+    margin-left: 200px;
+  
+}
+.latest-blog-1{
+    display:flex;
+    gap:20px;
+    font-size: 16px;
+    margin-left: 340px;
+}
+.latest-blog-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(219, 210, 250);
+   
+}
+.latest-blog-2 img{
+    width: 510px;
+    height: 380px;
+    border:  30px solid lightblue;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
 
 /* newsletter style */
 .newspart{
