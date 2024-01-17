@@ -4,6 +4,11 @@
     font-family: 'Mulish', sans-serif;
    
 }
+
+/* Hambar menu */
+#toggler,label{
+    display: none;
+}
 /* header style */
 .header{
     margin: 60px 130px;
