@@ -109,5 +109,28 @@ transform: rotate(-19.628deg);
    .newsletter input,button{
     width: 330px;
    }
+
+   /* footer part */
+   .footer{
+    height: 50px;
+    width:100%;
+   }
+   .footer-logo{
+    white-space: nowrap;
+   }
+   .footer-desc{
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-left: -380px;
+   }
+   .social-icon{
+    margin-top: 50px;
+   }
+   .horizontal{
+    margin: 20px;
+   }
+   .reserved{
+    white-space: nowrap;
+   }
    
 }
